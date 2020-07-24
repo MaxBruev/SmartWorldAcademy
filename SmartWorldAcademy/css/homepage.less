@@ -18,7 +18,7 @@ header {
 .header_homepage {
     background: url(../img/background-1.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top right calc(100% + 367px);
     background-size: cover;
 }
 
@@ -857,4 +857,10 @@ input[type="Search_footer"]::placeholder {
     .up_button {
         left: 95%;
     }
+}
+
+@media screen and (orientation: portrait) and (min-device-width: 1000px) and (max-device-width: 1880px) {
+    .header_homepage {
+    background-position: top right calc(100% + 661px);
+}
 }
