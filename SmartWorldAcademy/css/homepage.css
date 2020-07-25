@@ -125,6 +125,22 @@ header {
   margin: 6% auto;
   margin-bottom: 0;
 }
+.down_bottom {
+  width: 70px;
+  height: 70px;
+  border-radius: 80px;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  bottom: -7%;
+  transform: translate(-50%, -50%);
+}
+.fa-arrow-down {
+  color: #dcdcdc;
+  font-size: 30px;
+}
 main {
   width: 100%;
 }
@@ -646,16 +662,16 @@ button {
 .fa-arrow-up {
   color: #0f7bff;
 }
-input[type="Search_footer"]::-webkit-input-placeholder {
+input[type="search"]::-webkit-input-placeholder {
   color: #ffffff;
 }
-input[type="Search_footer"]:-ms-input-placeholder {
+input[type="search"]:-ms-input-placeholder {
   color: #ffffff;
 }
-input[type="Search_footer"]::-ms-input-placeholder {
+input[type="search"]::-ms-input-placeholder {
   color: #ffffff;
 }
-input[type="Search_footer"]::placeholder {
+input[type="search"]::placeholder {
   color: #ffffff;
 }
 @media screen and (orientation: portrait) and (min-device-width: 320px) and (max-device-width: 992px) {
