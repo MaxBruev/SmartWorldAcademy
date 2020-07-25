@@ -268,6 +268,11 @@ main {
 .col-md {
   z-index: 1;
 }
+@media (min-device-width: 1400px) and (max-device-width: 2040px) {
+  .line_position {
+    bottom: 70%;
+  }
+}
 .line_position {
   position: absolute;
   width: 35%;
