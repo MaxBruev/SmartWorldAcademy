@@ -9,6 +9,8 @@ html,
 body {
   height: 100%;
   font-family: Quicksand, Serif;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 header {
   padding: 0 7% 0 7%;
